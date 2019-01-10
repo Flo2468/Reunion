@@ -1,0 +1,103 @@
+h1 {
+    color:#66008b;
+    font-size: 30px;
+}
+
+/* Cibler un ID avec # */
+h2{
+    color:#5d078b
+}
+h3 {
+    color:#5d078b
+}
+#Paragraph1 {
+    background-color: #d9c2ea;
+}
+
+.border {
+    border: 3px  solid rgba(235, 9, 201, 0.95);
+}
+
+
+p { 
+      color: #66008b;
+    font-size: 20px;
+}
+
+body {   
+    background-color: #c7eaf7;
+    font-family:'Press Start 2P', cursive;
+    text-align: justify;
+}
+
+nav a { 
+    margin-top: 20px;
+background-color:#9cc7f2;
+border: double;
+font-family: #06068d;
+color: #580da2;
+text-decoration: none;
+padding: 10px;
+display: inline-block;
+width: 85px;
+text-align: center;
+}
+
+nav a:hover 
+{ background-color:#a19bed;
+}
+#boutons
+{
+    text-align: center;
+}
+
+a.boutonFB
+{
+  position: relative;
+	width: 5px;
+	height: 5px;
+	float: left; 
+    
+}
+
+
+
+/*#rightCol { 
+    border: solid 1px;
+    border-color:black;
+  } */
+    
+#rightCol2 {
+   float: right; 
+   margin-left: 30px;
+   margin-right: 30px;
+    
+}
+#leftCol3 {
+    float: left;
+    margin-left: -35px;
+    margin-right: -35px;
+}
+#rightCol4 {
+    float: right;
+    margin-right: -35px;
+    margin-left: -35px;
+}
+#leftCol5 {
+    float: left;
+    margin-right: -35px;
+    margin-left: -35px;
+}
+#rightCol6 {
+    float: right;
+    margin-right: -35px;
+    margin-left: -35px;
+}
+
+* 
+{ 
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Slabo 27px', cursive;
+    
+}
