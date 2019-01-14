@@ -1,11 +1,69 @@
 <!DOCTYPE html> 
+<style> 
+    h3 {
+        display: flex;
+        justify-content: center;
+    }
+   #thumbs {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+	list-style: none outside none; /* On supprime le style de la liste par défaut */
+    
+}
+ 
+#thumbs li {
+    display: flex;
+       flex-direction: row;
+       align-items: center;
+    flex-wrap: wrap;
+/*
+	float: left;
+	height: 112px;
+	margin: 0;
+	padding: 5px;
+	position: relative;
+	width: 150px;
+	z-index: 10;
+*/
+}
+ 
+#thumbs li:hover {
+	z-index: 100; /* Nécessaire pour Firefox */
+}
+ 
+#thumbs li img {
+    display: flex;
+       flex-direction: row;
+/*       flex-wrap: wrap;*/
+
+    width: 450px;
+    height: 375px;
+
+    padding: 10px;
+/*	border: 5px solid #fff;*/
+	z-index: 100;
+	transition: transform 0.25s ease-in-out;
+	-moz-transition: -moz-transform 0.25s ease-in-out;
+	-o-transition: -o-transform 0.25s ease-in-out;
+	-webkit-transition: -webkit-transform 0.25s ease-in-out;
+/*
+	transform: scale(0.10);  On réduit l'image à 75% 
+	-moz-transform: scale(0.10);
+	-o-transform: scale(0.10);
+	-webkit-transform: scale(0.10);
+*/
+
+}
+</style>   
+   
     <html lang="fr"> 
      <head> 
       <meta charset="UTF-8">   
-        <title> Document </title>
+        <title> Réunion </title>
         <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
         <link rel="stylesheet" href="./css/normalize.css">
-        <link rel="stylesheet" href="./css/style3.css">     
+        <link rel="stylesheet" href="./css/style.css">     
      </head>
         <body>  
          <header> 
@@ -17,43 +75,45 @@
                  <a href="tourisme.html"> Tourisme </a>
                  <a href="culture.html"> Cuisine </a>   
                  <a href="Creole.html"> Créole </a>
-                 Contact
+                 Galerie
             </div>
            </nav>
          </header>
         </body>
     <main>
      <br>
-       <h3> Formulaire de contact </h3>
+       <h3> Galerie </h3>
         <div id="content">
-          <form action=" " method="post"  autocomplete="on">
-			<p> <label for="username" class="iconic user" > Nom <span class="required">*</span></label> <input type="text" name="username" id="username"  required="required" placeholder="Hi friend, how may I call you ?"  /> 
-            </p>
+          <ul id="thumbs">
+	<li><a href="./photos/DSC01826.JPG"><img alt="landscape001.jpg" src="./photos/DSC01826.JPG" /></a></li>
+	<li><a href="./photos/DSC01829.JPG"><img alt="landscape002.jpg" src="./photos/DSC01829.JPG" /></a></li>
+	<li><a href="./photos/DSC01830.JPG"><img alt="landscape003.jpg" src="./photos/DSC01830.JPG" /></a></li>
+	<li><a href="./photos/DSC01831.JPG"><img alt="landscape003.jpg" src="./photos/DSC01831.JPG" /></a></li>
+	<li><a href="./photos/DSC01832.JPG"><img alt="landscape003.jpg" src="./photos/DSC01832.JPG" /></a></li>
+	<li><a href="./photos/DSC01833.JPG"><img alt="landscape003.jpg" src="./photos/DSC01833.JPG" /></a></li>
+	<li><a href="./photos/DSC01834.JPG"><img alt="landscape003.jpg" src="./photos/DSC01834.JPG" /></a></li>
+	<li><a href="./photos/DSC01835.JPG"><img alt="landscape003.jpg" src="./photos/DSC01835.JPG" /></a></li>
+	<li><a href="./photos/DSC01836.JPG"><img alt="landscape003.jpg" src="./photos/DSC01836.JPG" /></a></li>
+	<li><a href="./photos/DSC01837.JPG"><img alt="landscape003.jpg" src="./photos/DSC01837.JPG" /></a></li>
+	<li><a href="./photos/DSC01838.JPG"><img alt="landscape003.jpg" src="./photos/DSC01838.JPG" /></a></li>
+	<li><a href="./photos/DSC01839.JPG"><img alt="landscape003.jpg" src="./photos/DSC01839.JPG" /></a></li>
+	<li><a href="./photos/DSC01840.JPG"><img alt="landscape003.jpg" src="./photos/DSC01840.JPG" /></a></li>
 
-			<p> <label for="usermail" class="iconic mail-alt"> Adresse E-mail <span class="required">*</span>
-                </label> <input type="email" name="usermail" id="usermail" placeholder="I promise I hate spam as much as you do" required="required"  /> 
-            </p>
+	<li><a href="./photos/DSC01841.JPG"><img alt="landscape003.jpg" src="./photos/DSC01841.JPG" /></a></li>
+	<li><a href="./photos/DSC01842.JPG"><img alt="landscape003.jpg" src="./photos/DSC01842.JPG" /></a></li>
+	<li><a href="./photos/DSC01843.JPG"><img alt="landscape003.jpg" src="./photos/DSC01843.JPG" /></a></li>
+	<li><a href="./photos/DSC01844.JPG"><img alt="landscape003.jpg" src="./photos/DSC01844.JPG" /></a></li>
+	<li><a href="./photos/DSC01845.JPG"><img alt="landscape003.jpg" src="./photos/DSC01845.JPG" /></a></li>
+	<li><a href="./photos/DSC01846.JPG"><img alt="landscape003.jpg" src="./photos/DSC01846.JPG" /></a></li>
+	<li><a href="./photos/DSC01847.JPG"><img alt="landscape003.jpg" src="./photos/DSC01847.JPG" /></a></li>
+	<li><a href="./photos/DSC01848.JPG"><img alt="landscape003.jpg" src="./photos/DSC01848.JPG" /></a></li>
+	<li><a href="./photos/DSC01849.JPG"><img alt="landscape003.jpg" src="./photos/DSC01849.JPG" /></a></li>
+	<li><a href="./photos/DSC01851.JPG"><img alt="landscape003.jpg" src="./photos/DSC01851.JPG" /></a></li>
+	<li><a href="./photos/DSC01852.JPG"><img alt="landscape003.jpg" src="./photos/DSC01852.JPG" /></a></li>
+<!--	<li><a href="#"><img alt="landscape003.jpg" src="./photos/DSC01853.JPG" /></a></li>-->
 
-			<p> <label for="usersite" class="iconic link"> Website 
-                </label> <input type="url" name="usersite" id="usersite"  placeholder="eg: http://www.miste.com" /> 
-            </p>
-
-			<p> <label for="subject" class="iconic quote-alt"> Sujet 
-                </label> <input type="text" name="subject" id="subject"  placeholder="What would you like to talk about?" /> 
-            </p>
-
-			<p> <label for="message" class="iconic comment"> Message  <span class="required">*</span>
-                </label> 
-                <textarea placeholder="Don't be shy, leave me a friendly message and I'll answer as soon as possible "  required="required" >
-                </textarea>
-            </p>
-
-			<p class="indication"> Tous les champs avec  <span class="required">*</span> sont obligatoires
-            </p>
-			
-			<input type="submit" value=" ★  Envoyez votre message!" />		
-
-		  </form>		
+	
+</ul>
         </div> 
       
     </main>           
